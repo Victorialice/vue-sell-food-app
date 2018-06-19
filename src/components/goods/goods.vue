@@ -1,6 +1,7 @@
 <template>
-  <div>
-    goods
+  <div class="foods">
+    <div class="menu-wrapper"> </div>
+    <div class="foods-wrapper"> </div>
   </div>
 </template>
 
@@ -9,4 +10,7 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
+  .goods
+    .menu-wrapper
+    .foods-wrapper
 </style>
