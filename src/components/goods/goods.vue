@@ -4,7 +4,7 @@
       <ul>
         <li v-for="item in goods" class="menu-item">
           <span class="text border-1px">
-            <span v-show="item.type>0" class="icon" :class="classMap[item.type]">{{item.name}}</span>
+            <span v-show="item.type>0" class="icon" :class="classMap[item.type]"></span>{{item.name}}
           </span>
         </li>
       </ul>
@@ -56,6 +56,7 @@
         display: table
         height: 54px
         width: 56px
+        padding: 0 12px
         line-height: 14px
         .icon
           display: inline-block
@@ -79,7 +80,7 @@
           display: table-cell
           width: 56px
           vertical-align: middle
-          border-1px(regba(7, 17, 27, 0.1));
+          border-1px(rgba(7, 17, 27, 0.1));
           font-size: 12px
 
     .foods-wrapper
